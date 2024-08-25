@@ -1,23 +1,24 @@
-import React from "react";
-function Counter() {
-    const [first, setfirst] = React.useState(0);
-    function increase(){
-        setfirst(first + 1);
+import React from 'react'
+function Counter(){
+    const [count, setstate] = React.useState(0);
+    function increase() {
+        setstate(count + 1)
     }
-    function decrease(){
-        setfirst(first - 1);
+    function Decrease() {
+        setstate (count - 1)
     }
-    function reset(){
-        setfirst(0);
+    function reset() {
+        setstate (0)
     }
+
     return(
         <div>
-            <h2>Clicked: {first}</h2>
-            <button onClick={increase}>Increase</button>
-            <button onClick={decrease}>Decrease</button>
-            <button onClick={reset}>reset</button>
+             <h2>Counter:{count}</h2>
+             <button className='btn-1' onClick={increase}>Increase</button>
+             <button className='btn-1' onClick={Decrease}>Decrease</button>
+             <button className='btn-1' onClick={reset}>reset</button>
         </div>
+       
     )
 }
-
 export default Counter;

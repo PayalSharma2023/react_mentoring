@@ -1,9 +1,11 @@
 import Navbar from './navbar';
 function NavbarItems(){
+    // const text = ['home', 'about']
+    // const text = "lorem23"
     return(
-        <ul>
-            <Navbar text='home' link='./' />
-        </ul>
+        <span>  <Navbar text='home' link='./' />
+        </span>
+        
     )
 }
 

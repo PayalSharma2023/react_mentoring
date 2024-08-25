@@ -10,4 +10,5 @@ function childComponent({ name, age }) {
   );
 }
 
-export default childComponent;
+
+export default childComponent ;
