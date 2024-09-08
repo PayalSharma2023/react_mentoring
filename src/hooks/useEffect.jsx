@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-// useEffect() = React Hook that tells React Do SOME CODE WHEN (pick one):
+// useEffect() is of 4 types = React Hook that tells React Do SOME CODE WHEN (pick one):
 // This component re-render
 // this component mounts
 // The state of a value
@@ -18,7 +18,7 @@ import React, { useState, useEffect } from "react";
 // #4 Fetching Data from an API
 // #5 Clean up when a component unmounts
 
-const Conditional = () => {
+const UseEffect = () => {
   const [count, setCount] = useState(0);
   const [color, setcolor] = useState("green");
   const [width, setwidth] = useState(window.innerWidth)
@@ -67,12 +67,12 @@ const Conditional = () => {
     <>
     <p>Window Width: {width}px</p>
     <p>Window Height: {height}px</p>
-      {/* <p style={{color: color}}>Count: {count}</p>
+      <p style={{color: color}}>Count: {count}</p>
       <button onClick={addCount}>Add</button>
       <button onClick={subtractCount}>Subtract</button><br />
-      <button onClick = {changeColor}>Change color</button> */}
+      <button onClick = {changeColor}>Change color</button>
     </>
   );
 };
 
-export default Conditional;
+export default UseEffect;
