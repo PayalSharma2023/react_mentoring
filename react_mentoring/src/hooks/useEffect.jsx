@@ -18,6 +18,7 @@ import React, { useState, useEffect } from "react";
 // #4 Fetching Data from an API
 // #5 Clean up when a component unmounts
 
+
 const UseEffect = () => {
   const [count, setCount] = useState(0);
   const [color, setcolor] = useState("green");

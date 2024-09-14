@@ -1,0 +1,34 @@
+npx create-react-app react_mentoring  //to create folder structure starter template of react app
+
+ls//no. of folder in directory < cd //change directory
+cd react_mentoring
+
+to run the app : npm install //to install dependencies necessary libraries
+npm start : to start app in browser in local host
+
+
+1. component: functional(2024 use) and class(scale: big): reusable components eg: app.js, navbar.js
+2. jsx: consider div as tag not keyword and give suggestions also 
+link: import './App.css
+
+Props vs state
+
+exercise: Landing page  
+
+Props(outside) or state(inside work)iin react : handles property between parent and child
+
+must wrap with div section main : jsx fragments (in a component)
+
+
+types of functions : asynchromous ........ arrow function
+Conditional rendering: if else in react
+
+Inheritance: when we copy properties from one class to other: super class(Parent) base class sub class(child)
+
+Composition: ek component ko dusre component me daalna
+Component Lifecycle:
+List and Keys:
+react component ka sturcture ? pehle module import phir func define phir var phir return element phir module export kr lete h
+
+
+npm create vite@latest : npm i : npm run dev
