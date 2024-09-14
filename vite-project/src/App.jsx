@@ -92,5 +92,6 @@ function App() {
 
 //console update nhi ho raha aur value store nhi horhi
 //local storage ?
+//onKeyUp={handleKeyUp}
 
 export default App;
