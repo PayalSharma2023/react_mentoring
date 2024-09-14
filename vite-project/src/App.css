@@ -23,6 +23,12 @@ body{
   position: relative;
   /* background-position:50cqh; */
 }
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    background: linear-gradient(137.5deg, white 50%, #1B8AF1 50%, #B58DED);
+  }
+}
 
 
 
