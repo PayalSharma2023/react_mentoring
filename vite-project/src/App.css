@@ -29,7 +29,7 @@
   transform: translate(-50%, -50%);
 }
 
-.element label{
+.element h1{
   font-size: 25px;
   z-index: 1;
   font-weight: bold;
