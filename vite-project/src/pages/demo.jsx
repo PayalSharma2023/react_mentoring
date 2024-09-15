@@ -18,7 +18,7 @@ function Homepage() {
                 <a href="">SHOP</a>
                 </li>
 
-              <div className="logo">HomDEco</div>
+              <div className="logo">HomDEcoR</div>
               <li>
                 <a href="">FAQ</a>
                 </li>
@@ -42,18 +42,21 @@ function Homepage() {
         <div className="container2">
             <div className="title">
                 <div className="text">
-                Lorem ipsum dolor sit amet, consectetur
+                Lorem <span className="ipsun">ipsum dolor</span> sit amet, <span className="ipsun">consectetur</span>
                 </div>
                 <div className="sub-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue risus nibh id accumsan ut lectus euismod ipsum cursus. Pulvinar nulla aliquam blandit tortor adipiscing enim tristique nibh.
                 </div>
             </div>
+            <div className="hero-img">
             <div className="hero-img-1">
-                <img src="src/assets/hero-img-1.png" alt="back" width="100px" height="100px"/>
+                <img src="src/assets/hero-img-1.png" alt="back"/>
             </div>
             <div className="hero-img-2">
-            <img src="src/assets/hero.png" alt="img" width="100px" height="100px"/>            
+            <img src="src/assets/hero.png" alt="img"/>            
             </div>
+            </div>
+            
         </div>
      </div>
       
