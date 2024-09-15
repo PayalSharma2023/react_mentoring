@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    
+  }
+  body{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+  }
+  .container{
+    height: 100vh;
+    width: 100vw;
+    /* background: linear-gradient(135deg, #1B8AF1, #B58DED); */
+    background: linear-gradient(155deg, white 50%, #1B8AF1 50%, #B58DED);
+    /* background-image: url(./assets/background.svg); */
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    position: relative;
+    /* background-position:50cqh; */
+  }
+  /* Adjust for smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      background: linear-gradient(137.5deg, white 50%, #1B8AF1 50%, #B58DED);
+    }
+  }
+  
+  
+  
+  .element{
+    position: relative;
+    background-color: #fff;
+    margin: 20px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .element h1{
+    font-size: 25px;
+    z-index: 1;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  .element input{
+    border: none;
+    font-size: 12px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 6px;
+    justify-self: center;
+    box-shadow: 0px 0px 6px 1px #89898a ;
+    align-self: center;
+  }
+  .login-btn{
+    margin-top: 10px;
+    background-color: #B28DEC;
+    color: white;
+    width: 110px;
+    border: none;
+    border-radius: 30px;
+    justify-self: center;
+    padding: 10px;
+    box-shadow: 0px 0px 8px #B28DEC ;
+    align-self: center;
+    text-transform: uppercase;
+  }
+  .signup-btn{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(69, 169, 251);
+    width: 110px;
+    border-radius: 30px;
+    justify-self: flex-end;
+    align-self: center;
+    text-transform: capitalize;
+  }
+  

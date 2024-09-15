@@ -1,92 +1,128 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: monospace;
-  
 }
-body{
-  height: 100vh;
+body,
+html {
   width: 100%;
-  text-align: center;
+  height: 100%;
+  background-color: #efede7;
 }
-.container{
-  height: 100vh;
-  width: 100vw;
-  /* background: linear-gradient(135deg, #1B8AF1, #B58DED); */
-  background: linear-gradient(155deg, white 50%, #1B8AF1 50%, #B58DED);
-  /* background-image: url(./assets/background.svg); */
-  /* background-size: cover; */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
+
+/* NAVBAR */
+.nav {
+  position: sticky;
+  border-bottom: 1px solid #a1a1aa;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px, 112px, 0px, 112px;
+  background-color: #efede7;
+}
+.container {
   position: relative;
-  /* background-position:50cqh; */
-}
-/* Adjust for smaller screens */
-@media (max-width: 768px) {
-  .container {
-    background: linear-gradient(137.5deg, white 50%, #1B8AF1 50%, #B58DED);
-  }
-}
-
-
-
-.element{
-  position: relative;
-  background-color: #fff;
-  margin: 20px;
-  height: 400px;
+  max-width: 1216px;
+  height: 80px;
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.nav-items {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  width: 970px;
+  height: 58px;
+  top: 11px;
+  left: 123px;
+  gap: 0px;
+  opacity: 0px;
+}
+.nav-items ul {
+  position: absolute;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 706px;
+  height: 16px;
+  top: 21px;
+  left: 135px;
+  gap: 0px;
+  opacity: 0px;
+}
+.logo {
+  width: 135px;
+  height: 48px;
+  padding: 4px 2px 5px 0px;
+  font-family: Cormorant;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 30px;
+  color: #09090b;
+}
+.nav-items ul li {
+  width: 56px;
+  height: 16px;
+  top: 2px;
+  left: 56px;
+  gap: 0px;
+  opacity: 0px;
+}
+.nav-items ul li a {
+  color: #3f3f46;
+  text-decoration: none;
+  width: 44px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.44px;
+  letter-spacing: 1.7999999523162842px;
+  text-align: left;
+}
+.cart {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 28px;
+  left: 1192px;
+  padding: 2.25px 3.12px 2.25px 3.12px;
+  color: #3f3f46;
 }
 
-.element h1{
-  font-size: 25px;
-  z-index: 1;
-  font-weight: bold;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+/* HERO */
+.hero {
+  position: relative;
+  width: Hug (1, 440px) px;
+  height: Hug (1, 023px) px;
+  top: 81px;
+  padding: 96px 112px 96px 112px;
+  gap: 10px;
+  border: 0px 0px 1px 0px;
+  opacity: 0px;
 }
-.element input{
-  border: none;
-  font-size: 12px;
-  padding: 10px;
-  width: 200px;
-  border-radius: 6px;
-  justify-self: center;
-  box-shadow: 0px 0px 6px 1px #89898a ;
-  align-self: center;
+.container2 {
+  position: relative;
+  width: Hug (1, 216px) px;
+  height: Hug (831px) px;
+  gap: 64px;
 }
-.login-btn{
-  margin-top: 10px;
-  background-color: #B28DEC;
-  color: white;
-  width: 110px;
-  border: none;
-  border-radius: 30px;
-  justify-self: center;
-  padding: 10px;
-  box-shadow: 0px 0px 8px #B28DEC ;
-  align-self: center;
-  text-transform: uppercase;
-}
-.signup-btn{
+.hero-img-1 img {
   position: absolute;
-  bottom: 0;
-  padding: 10px;
-  background-color: transparent;
-  color: rgb(69, 169, 251);
-  width: 110px;
-  border-radius: 30px;
-  justify-self: flex-end;
-  align-self: center;
-  text-transform: capitalize;
+  width: 630.37px;
+  height: 727.48px;
+  top: -541px;
+  left: 38.78px;
+  gap: 0px;
+  opacity: 0px;
+  rotate: -42deg;
 }

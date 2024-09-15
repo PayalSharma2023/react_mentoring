@@ -1,7 +1,7 @@
 import { useState } from "react";
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
-import "../App.css";
+import "../style/login.css";
 //add conditional rendering: if it is email then print else write enter right email
 function Login() {
   const [loggedIn, setLoggedIn] = useState(false);

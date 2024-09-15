@@ -32,3 +32,5 @@ react component ka sturcture ? pehle module import phir func define phir var phi
 
 
 npm create vite@latest : npm i : npm run dev
+
+//prop drilling
