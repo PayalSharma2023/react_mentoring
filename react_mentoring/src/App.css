@@ -15,6 +15,12 @@ html, body{
   justify-content: center;text-align: center;
 }
 
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
 .nav{
   background-color: black;
   position: sticky;

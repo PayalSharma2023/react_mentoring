@@ -1,24 +1,36 @@
-import UseCallback from "./hooks/useCallback";
-import UseEffect from "./hooks/useEffect";
-import Demo from "./hooks/useMemo";
-import UseReducer from "./hooks/useReducer";
-import UseRef from "./hooks/useRef";
+import React from "react";
+import Navbar from "./Components/navbar";
+import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import Home from "./Components/Home";
+import Login from "./Components/Login";
+import About from "./Components/About";
+import User from "./Components/User";
 
 function DD() {
-  return(
-    <div>
-      {/* <UseEffect/> */}
-      {/* <UseRef/> */}
-      <Demo/>
-      {/* <UseReducer/> */}
-      <UseCallback/>
-    </div>
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <><Navbar/><Home/></> 
+    },
+    {
+      path: '/login',
+      element: <><Navbar/><Login/></>
+    },
+    {
+      path: '/about',
+      element: <><Navbar/><About/></>
+    },
+    {
+      path: '/user/:username',
+      element: <><Navbar/><User/></>
+    },
+])
+  return (
+    <>
+
+    <RouterProvider router={router}/>
+    </>
   );
- 
-    
-
-  
-
 }
 
 export default DD;
