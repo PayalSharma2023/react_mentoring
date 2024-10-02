@@ -1,0 +1,10 @@
+npx create vite@latest
+npm i
+npm run dev
+
+npm i react-hook-form
+
+npm i express
+npm i nodemon --save-dev -g
+npm i cors 
+npm i bady-parser
